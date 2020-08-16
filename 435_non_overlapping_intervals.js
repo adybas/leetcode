@@ -23,3 +23,27 @@
 
 // You may assume the interval's end point is always bigger than its start point.
 // Intervals like [1,2] and [2,3] have borders "touching" but they don't overlap each other.
+
+var eraseOverlapIntervals = function(intervals) {
+    let overlaps = 0
+    
+    if(intervals.length < 1) return overlaps
+    
+    intervals.sort((a, b) => {return a[0] - b[0]})
+    let currentInterval = 0
+    let nextInterval = 1
+    
+    while(nextInterval < intervals.length) {
+        if(intervals[nextInterval][0] < intervals[currentInterval][1]) {
+            overlaps += 1
+            
+            if(intervals[nextInterval][1] < intervals[currentInterval][1])
+                currentInterval = nextInterval
+        } else {
+            currentInterval = nextInterval
+        }
+        nextInterval += 1
+    }
+    
+    return overlaps
+};
