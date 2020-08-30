@@ -30,3 +30,5 @@ var findMaxConsecutiveOnes = function(nums) {
     
     return consecutiveOnes
 };
+
+module.exports = findMaxConsecutiveOnes
