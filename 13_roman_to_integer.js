@@ -65,7 +65,9 @@ var romanToInt = function(s) {
     return output
 };
 
-romanToInt("MCMXCIV") // 1994
+module.exports = romanToInt
+
+//romanToInt("MCMXCIV") // 1994
 
 //starting at the end of the string, if a previous number exists ROMAN[s[i + 1]]
 // && the current number ROMAN[s[i]] is less than the previous number, we substract
