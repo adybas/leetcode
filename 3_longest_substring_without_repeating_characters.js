@@ -38,7 +38,9 @@ var lengthOfLongestSubstring = function(s) {
     return count
 };
 
-lengthOfLongestSubstring("au") // => 2
-lengthOfLongestSubstring(" ") // => 1
-lengthOfLongestSubstring("bbbbbb") // => 1
-lengthOfLongestSubstring("abcabcbb") // => 3
+module.exports = lengthOfLongestSubstring;
+
+// lengthOfLongestSubstring("au") // => 2
+// lengthOfLongestSubstring(" ") // => 1
+// lengthOfLongestSubstring("bbbbbb") // => 1
+// lengthOfLongestSubstring("abcabcbb") // => 3

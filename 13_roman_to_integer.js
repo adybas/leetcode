@@ -61,7 +61,6 @@ var romanToInt = function(s) {
             output += ROMAN[s[i]]
         }
     }
-    console.log(output)
     return output
 };
 
