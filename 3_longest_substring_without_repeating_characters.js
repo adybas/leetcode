@@ -44,3 +44,8 @@ module.exports = lengthOfLongestSubstring;
 // lengthOfLongestSubstring(" ") // => 1
 // lengthOfLongestSubstring("bbbbbb") // => 1
 // lengthOfLongestSubstring("abcabcbb") // => 3
+
+/*
+Time Complexity:
+Space Complexity:
+*/
