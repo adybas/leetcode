@@ -46,6 +46,9 @@ module.exports = lengthOfLongestSubstring;
 // lengthOfLongestSubstring("abcabcbb") // => 3
 
 /*
-Time Complexity:
-Space Complexity:
+Time Complexity: O(n)
+=> Using a while loop creates a time complexity based on the size of our inputs
+
+Space Complexity: O(n)
+=> Creating a new Set causes our space complexity to be dependant on the size of our inputs
 */

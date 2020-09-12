@@ -73,6 +73,11 @@ module.exports = romanToInt
 // otherwise, we add the current number to the output
 
 /*
-Time Complexity:
-Space Complexity:
+Time Complexity: O(n)
+=> We have one loop, so time complexity will depend on the size of n we iterate over
+=> Our hash lookup and insert are both O(1), but we drop that from our analysis 
+bc we drop non dominant variables due to the insignificance of them as our input increases for n
+
+Space Complexity: O(n)
+=> We create a hash, which takes up n amount of space;
 */

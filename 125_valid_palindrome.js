@@ -33,3 +33,11 @@ var isPalindrome = function(s) {
 };
 
 module.exports = isPalindrome
+
+/*
+Time Complexity: O(n)
+=> We have one loop, so time complexity will depend on the size of n we iterate over
+
+Space Complexity: O(1)
+=> We create a varibles, which takes up a constant amount of space;
+*/

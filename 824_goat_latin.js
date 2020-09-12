@@ -33,7 +33,7 @@
 // S contains only uppercase, lowercase and spaces. Exactly one space between each word.
 // 1 <= S.length <= 150.
 
-/**
+/*
  * @param {string} S
  * @return {string}
  */
@@ -51,3 +51,11 @@ var toGoatLatin = function(S) {
     }
     return newS.join(" ")
 };
+
+/*
+Time Complexity: O(n)
+=> We have one loop, so time complexity will depend on the size of n we iterate over
+
+Space Complexity: O(1)
+=> We create a varible, which takes up a constant amount of space;
+*/
